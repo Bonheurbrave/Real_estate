@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.aft::after{
+content:"";
+width:20%;
+height:3.6%;
+bottom:10px;
+background:blue;
+position:absolute;
+left:0;
+
+}
